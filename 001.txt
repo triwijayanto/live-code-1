@@ -1,0 +1,26 @@
+/*
+  Buatlah sebuah algoritma atau pseudocode untuk kasus berikut:
+  Suatu toko baju 'X' sedang mengadakan midnight sale dengan ketentuan sebagai berikut:
+  - Jumlah baju yang dibeli lebih dari 9 maka akan mendapatkan 5 baju lagi
+  - Jumlah baju yang dibeli lebih dari 5 maka akan mendapatkan 3 baju lagi
+  - Jumlah baju yang dibeli lebih dari 2 maka akan mendapatkan 1 barang lagi
+  Tampilkan jumlah baju yang didapatkan oleh pembeli.
+  NOTED:
+  Jika jumlah baju kurang dari 0 atau menerima input selain angka maka tampilkan 'Input Invalid'
+*/
+
+
+STORE "jumlahbaju" to any number
+
+IF "jumlahbaju" > 9
+	DO "jumlahbaju" + 5
+OR IF "jumlahbaju" > 5
+	DO "jumlahbaju" + 3
+OR IF "jumlahbaju" > 2
+	DO "jumlahbaju" + 1
+ELSE "jumlahbaju" < 0 || "jumlahbaju" !== angka 
+	DO "Input Invalid"
+
+DISPLAY jumlah baju
+
+
